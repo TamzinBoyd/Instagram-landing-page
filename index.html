@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f0fedaf61f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="image">
+          <img
+            src="./assets/phone-frame.png"
+            class="image__frame"
+            alt="image of a phone"
+          />
+          <img src="./assets/sample-picture-1.jpg" class="image__photo" />
+        </div>
+        <div class="login">
+          <div class="login__main">
+            <h1>Instagram</h1>
+            <h2>Sign up to see photos and videos from your friends.</h2>
+            <button>
+              <i class="fab fa-facebook-square"></i>
+              Log in with Facebook
+            </button>
+
+            <div class="form-separator">
+              <div class="line">
+                <hr />
+              </div>
+              <div class="separator">OR</div>
+              <div class="line">
+                <hr />
+              </div>
+            </div>
+
+            <form class="login__form">
+              <input
+                placeholder="Mobile Number or Email"
+                required
+                type="text"
+              />
+              <input placeholder="Full Name" required type="text" />
+              <input placeholder="Username" required type="text" />
+              <input placeholder="Password" required type="password" />
+              <button type="submit">Next</button>
+            </form>
+            <p class="login__policy">
+              By signing up, you agree to our <strong>Terms</strong>. Learn how
+              we collect, use and share data in our
+              <strong>Data Policy</strong> and how we use cookies and similar
+              technology in our
+              <strong>Cookies Policy.</strong>
+            </p>
+          </div>
+          <div class="existing-user">
+            Have an account? <span class="blue" href="#">Log in</span>
+          </div>
+          <footer>
+            <p class="apps">Get the app.</p>
+            <div class="logos">
+              <img src="./assets/app-store.png" class="logos_link" />
+              <img src="./assets/google-play.png" class="logos_link" />
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

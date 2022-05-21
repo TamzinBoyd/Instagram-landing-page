@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fafafa;
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.image {
+  align-self: center;
+}
+.image__photo {
+  position: absolute;
+  margin-left: -304px;
+  margin-top: 98px;
+}
+
+.login {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.login__main {
+  background-color: white;
+  padding: 0 50px 0 50px;
+  border: 1.5px solid #c5c5c5;
+  margin-bottom: 20px;
+}
+.login__form {
+  margin-bottom: 5px;
+}
+.login__policy {
+  padding: 0 10px 0 10px;
+  color: #9a9a9a;
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 4em;
+  margin: 20px 0 20px 0;
+}
+
+h2 {
+  font-size: 1.1em;
+  color: #9a9a9a;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3897f0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  height: 35px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+}
+
+.form-separator {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.line {
+  width: 40%;
+}
+
+.separator {
+  margin-top: -10px;
+  color: #9a9a9a;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 3px;
+  background-color: #fafafa;
+  border: 1px solid #bbbaba;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+input::placeholder {
+  color: #9a9a9a;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.existing-user {
+  background-color: white;
+  padding: 20px;
+  border: 1.5px solid #c5c5c5;
+}
+
+.blue {
+  color: #3897f0;
+}
+
+.apps {
+  padding: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos_link {
+  max-width: 150px;
+  margin: 5px;
+}
